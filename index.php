@@ -10,7 +10,7 @@ $footer=$objeto->get_Footer();
 <head>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link type="text/css" rel="stylesheet" href="./css/index.css">
 </head>
@@ -61,7 +61,7 @@ $footer=$objeto->get_Footer();
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
   <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
