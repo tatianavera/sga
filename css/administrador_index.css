@@ -1,0 +1,32 @@
+@media only screen and (min-width : 992px) {
+main, footer {
+     padding-left: 300px;
+   }
+ }
+
+   @media only screen and (max-width : 992px) {
+     header, main, footer {
+       padding-left: 0;
+     }
+   }
+
+
+body {
+  float: none;
+}
+
+nav {
+  background-color: orange;
+}
+
+#option {
+  border-radius: 20px 20px 20px 20px;
+  width: 80%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#option:hover, #option2:hover{
+  background: #1C5076;
+  color: white;
+}

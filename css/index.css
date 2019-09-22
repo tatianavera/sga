@@ -1,0 +1,33 @@
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  #container {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #container {
+    max-width: 30%;
+  }
+}
+
+body {
+  background-color: white;
+  float:none;
+	text-align:center;
+}
+
+nav {
+  background-color: orange;
+}
+
+img {
+  max-width: 70%;
+  max-height: 50%;
+  display: block;
+  margin: auto;
+}
+
+.btn{
+
+  background-color: orange;
+}
